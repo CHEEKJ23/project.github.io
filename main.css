@@ -1,0 +1,152 @@
+html,
+body,
+header,
+#intro
+ {
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth ;
+}
+
+#intro {
+    background: url("https://images3.alphacoders.com/104/thumb-1920-1041825.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+#font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mebg{
+    background-color:  #474e5d;
+    padding: 60px;
+    
+}
+
+
+#me::before {
+display: block;
+content: " ";
+margin-top: -65px;
+height: 65px;
+visibility: hidden;
+}
+
+#movie{
+    background: url("https://thatmaldivesblog.files.wordpress.com/2017/01/445161.jpg");
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#imgpb{
+    height: 300px;
+    width: 450px;
+}
+
+#drama{
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#drama h4{
+    color: grey;
+}
+
+#mv{
+    background-color: darkgray;
+}
+
+#gameheading{
+    background-color: darkgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#gamepilltitle{
+    color: grey;
+    background-color: lightblue;
+    font-family: fantasy;
+}
+
+#soccertitle{
+  
+    background-color:skyblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#barcelona{
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_3.0/w_371,c_limit/a76a7bba-36d1-4637-97ec-1ecfbfcfc547/official-fc-barcelona-store.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+   
+    
+}
+
+/* card */
+.rotate-container {
+    position: relative;
+  }
+  .rotate-container .card-front, .rotate-container .card-back {
+    width: 100%;
+    height: 100%;
+    transform: perspective(1600px) rotateY(0deg);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 1s linear 0s;
+  }
+  .rotate-container .card-back {
+    transform: perspective(1600px) rotateY(180deg);
+    position: absolute;
+    top: 0;
+  
+  }
+  .rotate-container .rotate-card-front {
+    transform: perspective(1600px) rotateY(-180deg);
+  }
+  .rotate-container .rotate-card-back {
+    transform: perspective(1600px) rotateY(0deg);
+  }
+
+  /* Modified card styles */
+  .card {
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+
+  .card .card-background {
+    height: 8em;
+    background-position: center center;
+    background-size: cover;
+  }
+  .avatar {
+    max-width: 6em;
+    max-height: 6em;
+    margin-top: -4em;
+    margin-bottom: 1em;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: radial-gradient(#e3e3e3, #329A7C, #109381);
+  }
+  /* /// */
+  #barca{
+      background-color: lightgray;
+  }
+
+  #musicc{
+      background-color: lightgray;
+  }
